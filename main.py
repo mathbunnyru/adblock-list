@@ -12,11 +12,9 @@ def simplify(filename):
 				clean_lines.append(website + '##.' + name)
 		else:
 			clean_lines.append(line)
-
-	clean_lines.sort()
 	
 	with open(filename, "w") as file:
-		file.write('\n'.join(clean_lines))
+		file.write('\n'.join(sorted(set(clean_lines))))
 
 
 simplify('block-list.txt')
