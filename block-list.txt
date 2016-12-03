@@ -1,6 +1,6 @@
 3dnews.ru##[id="right-sidebar"]
 addic7ed.com##.myec
-amazon.com##.celwidget
+amazon.com###centerPlus
 amazon.com##.s-padding-bottom-small
 amazon.com##[id="nav-upnav"]
 appleinsider.ru##[id="sidebar"]
