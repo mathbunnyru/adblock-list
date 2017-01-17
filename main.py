@@ -1,8 +1,9 @@
+#!/usr/bin/env python
+
 def simplify(filename):
 	with open(filename) as file:
-		text = file.read()
+		lines = file.read().split('\n')
 
-	lines = text.split('\n')
 	clean_lines = []
 	for line in lines:
 		if 'class' in line and '#' in line:
@@ -12,9 +13,11 @@ def simplify(filename):
 				clean_lines.append(website + '##.' + name)
 		else:
 			clean_lines.append(line)
-	
+
 	with open(filename, "w") as file:
-		file.write('\n'.join(sorted(set(clean_lines))))
+		adblock_header = clean_lines[:8]
+		websites = sorted(set(clean_lines[8:]))
+		file.write('\n'.join(adblock_header + websites))
 
 
 simplify('block-list.txt')
