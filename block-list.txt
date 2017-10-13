@@ -5,8 +5,8 @@
 ! Expires: 4 days (update frequency)
 ! Homepage:
 !
-
 3dnews.ru##[id="right-sidebar"]
+
 addic7ed.com##.myec
 amazon.com###centerPlus
 amazon.com##.s-padding-bottom-small
