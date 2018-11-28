@@ -70,3 +70,4 @@ translate.yandex.ru##.footer-line
 translate.yandex.ru##.footer-line_promo
 www.lg.com##.active
 www.lg.com##.new-quick-menu
+www.s7.ru s7cdn.online * allow
